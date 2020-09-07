@@ -1,0 +1,96 @@
+body {
+  margin: 0px;
+  background-color: whitesmoke;
+}
+
+#top {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  padding: 20px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+
+
+.rect_menu  {
+  width: 35px;
+  height: 1px;
+  background-color: #e3923b;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+#name {
+  margin: 0px;
+  font-family: 'Archivio', sans-serif;
+  font-weight: 200;
+  font-size: 6vw;
+  margin-left: 10vw;
+}
+
+#intro {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: 'Archivo', sans-serif;
+  font-size: larger;
+}
+
+.separator {
+  width: 100vw;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 15vw;
+  list-style-type: none;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: whitesmoke;
+}
+
+.menu-dark {
+  background-color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+  color: #e3923b;
+}
+
+li:hover {
+  background-color: #e3923b;
+  transition-duration: 0.7s;
+}
+
+a:hover {
+  color: #2944e0;
+}
+
+#dark-mode-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#dark-mode-button:hover{
+  background-color: #121212;
+  color:white;
+  transition-duration: 0.5s;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="stylesheet" href="/style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=IBM+Plex+Mono:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet"> 
+
+
+    <title>Portfolio</title>
+</head>
+<body>
+    
+   <div id="top">
+    <a href="menu.html">
+        <div id="menu">
+                <div class="rect_menu"></div>
+                <div class="rect_menu"></div>
+                <div class="rect_menu"></div>
+        </div>
+    </a>
+            <pre id="name">Francesco Fusari</pre>
+       
+   </div>
+    
+
+   <p id="intro">
+    Sicilian by birth, I moved to Copenhagen to become a Multimedia Design student at KEA.
+    I have always been fascinated by the web world, I think it should be everyone's right, the web should be an intuitive, user-friendy and accessible tool for everyone, in order to enhance our everyday life.
+    Today I am working on my coding and visual skills to discover new frontiers and new concepts on the internet and its infrastructures.
+   </p>
+   <div class="separator"></div>
+   <ul>
+       <li><a href="web.html">Web</a></li>
+       <li><a href="ux.html">UX</a></li>
+       <li><a href="animation.html">Animation</a></li>
+
+   </ul>
+   <div class="separator"></div>
+  
+   
+
+
+<div id="dark-mode-button" onclick="darkmode();">
+    <p id="dark_mode_text">Enable Dark Mode</p>
+</div>
+
+ <div class="separator"></div>
+ <a href="blog.html">
+    <li>Blog</li>
+      </a>
+      <div class="separator"></div>
+
+
+   <script>
+    function darkmode() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+
+    
+</body>
+</html>

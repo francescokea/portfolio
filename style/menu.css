@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    background-color: #e3923b;;
+}
+
+ul {
+    padding: 0px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: #2944e0;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    font-size: 15vw;
+  }
+
+a:hover {
+    color: #e3923b;
+    transition-duration: 0.7s;
+}
+
+li:hover {
+    background-color: #2944e0;
+    transition-duration: 0.7s;
+}
+
+#close-menu {
+    margin-top: 150px;
+}
+
+li {
+    list-style-type: none;
+}

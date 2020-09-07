@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/style/blog.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <title>Blog</title>
+</head>
+<body>
+    <div id="blog-head">
+        <h1 id="back">Boring lectures ahead.</h1>
+        <div id="dark-mode-container">
+        <a href="index.html">Go back</a>
+        <h1 onclick="darkmode();" id="go-dark"> Go dark</h1>
+        </div>
+    </div>    
+        
+        
+        <div class="post-window">
+            <div id="top">
+                <div class="close"></div>
+                <div class="minimize"></div>
+                <div class="expand"></div>
+                <div class="title">
+                    <h1>UX & UI during a Pandemic</h1>
+            </div>
+        </div>
+
+    
+            <div id="window">
+                <p>
+                    This last first semester of 2020 changed the world forever. A pandemia is one of those events which shape an entire generation. It's terrifing and fascinating at the same time to discover, to study and to shape this historical moment from a designer and a developer point of view. 
+                    A lot is changing in these months and a lot still need to be changed for the better of millions of people. New design concepts are being created to shape this pandemia-driven momentaneous society. Let's start thinking about the fact that now we're surrounded by stickers, boards and signs that tell us to keep distances or remember us to wash our hands. That's something completely new to be designed. No templates to choose from, that is the first time someone had to think about it. 
+                    Now let’s imagine the revolution in the public system in countries in which web infrastractures are not yet fully developed.
+                    Maintain a coherent, appealing and fully accessible style is crucial on the web in order to help people navigate on websites that provides essential services.
+                    Think about schools. Almost every academic system around the world is currently depending from third-parties softwares and, mostly important, from infrastructures to being able to teach to their students. Almost every software used is also developed and distributed by privates and this generally means big tech companies with their own interests in achieving user data, for example. 
+                    Just like a national school system is based on physical infrastructures I believe that now it is the moment we need to start or improve the developing of public, open-source, possibly government-founded softwares and infrastructures. This will permits to million of students not to renounce to part of their school education but to enhance it, by combining the traditional lessons with revolutionary tecnologies that now could permits us to teach and educate future generations in a better way. This is a very large matter with various implication. 
+                    From a more specific perspective, imagine designing and developing these systems seems to be a great challenge, an intriguing one. Studies will have to be made about UI, colours, fonts and of course UX. This last one, together with Accessibility, is going to have a bigger role every year more in every aspect of the design process of such 'products'. 
+                    Computer programming encounters psychology and philosophy with the aim of making access to education a concrete possibility for the millions of young people who cannot go to school every day. This also will be guaranteed completely even in emergency situations such as the one we are living today. It is a big step to acknowledge that we are now partially able to keep running societies while in an isolated environment using just a laptop.
+                </p>
+            </div>
+        </div>
+
+        <div id="post-window">
+            <div class="top">
+                <div class="close"></div>
+                <div class="minimize"></div>
+                <div class="expand"></div>
+                <div class="title">
+                    <h1>Thoughts about content</h1>
+                </div>
+            </div>
+            <div id="window">
+                <p>
+                    Imaging, shaping and coding UIs does not make a lot of sense without knowing the content and its form. 
+                    Content is what drives the Web, its transmission is the cause of the existance of the World Wide Web itself.
+                    At the very beginning of the firsts connnections, content was merely a multiple of 8bits of code and nothing more. 
+                    Decades later we are shaping in particular detail new types of content and sharing them online. Images, videos,
+                    lines of text, but also interactive experiences, VR. 
+                    At the same time we tend to create slightly different content with 
+                    the same techonlogies depending on the platform we are gonna use for its sharing. And so content has to be adapted 
+                    to the platform in using; to do so we have to follow different rules for our content creation. For example we have to know in which
+                    social media or a video sharing platform in particular we are gonna publish a video before its shooting or editing.
+                    The preferred device used is also important, but more important is instead the universal accessibility on every device and condition.
+                    The set of good practises cannot give value to an idea, but it can helps its spread and hits availability to the masses.
+                    Considering that we now live in a fast-content-based era, we need to think in terms of how many people, clicks, views, likes, interactions. 
+                    This can lead in extreme cases to fake content. Millions of web pages created not to share content, but to collect user data or sell products
+                    using as escamotage fake news or extremely poor content. 
+                    There are some exceptions to the rules I think. This blog is one of them, among thousands that do the same. I just abandoned every style, 
+                    every good manner when we write online. No images, almost no paragraphs, it seems just a random block of text in a random space. 
+                    That's because following those rules could be annoying and boring after a while and creating some content which does not have to be successfull 
+                    or search engine friendly can be relaxing and it can help thinking. 
+                </p>
+            </div>
+        </div>
+
+       <script>
+        function darkmode() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+
+</body>
+</html>
