@@ -72,7 +72,7 @@ h2 {
     top: 50vw;
     width: 50vw;
     height: 100vw;
-    background-image: url(/res/rs2.jpg);
+    background-image: url(../res/rs2.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -128,7 +128,7 @@ h2 {
     top: 110vw;
     width: 50vw;
     height: 100vw;
-    background-image: url(/res/rs3.jpg);
+    background-image: url(../res/rs3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -147,7 +147,7 @@ h2 {
     top: 180vw;
     width: 50vw;
     height: 50vw;
-    background-image: url(/res/code_screenshoot.png);
+    background-image: url(../res/code_screenshoot.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
