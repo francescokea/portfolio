@@ -93,7 +93,7 @@ p {
     color: whitesmoke;
   }
 
-#dark-mode-container {
+.container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -108,4 +108,13 @@ p {
     cursor: pointer;
     font-size: 4rem;
     margin-right: 20px;
+}
+
+#design {
+    font-size: 7vw;
+    
+}
+
+#music {
+    font-size: 7vw;
 }
