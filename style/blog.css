@@ -10,7 +10,7 @@ body {
     font-size: 4rem;
 }
 
-#post-window {
+.post-window {
     background-color: rgba(214, 230, 219, 0);
     border-radius: 10px;
     border-style: solid;
@@ -57,7 +57,7 @@ body {
     border-top-right-radius: 10px;
 }
 
-#window {
+.window {
     width: 80vw;
 }
 
